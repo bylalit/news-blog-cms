@@ -73,11 +73,11 @@ const categoryValidation = [
         .trim()
         .notEmpty()
         .withMessage('Category name is required')
-        .isLength({ min: 3, max: 12 })
+        .isLength({ min: 3, max: 50 })
         .withMessage('Category name must be between 3 and 12 characters'),
     body('description')
         .optional({ checkFalsy: true })
-        .isLength({ max: 100 })
+        .isLength({ max: 1000 })
         .withMessage('Description must be less than 100 characters')
 ]
 
@@ -87,14 +87,14 @@ const articleValidation = [
         .trim()
         .notEmpty()
         .withMessage('Title is required')
-        .isLength({ min: 5, max: 100 })
-        .withMessage('Title must be between 5 and 100 characters'),
+        .isLength({ min: 5, max: 2000 })
+        .withMessage('Title must be between 5 and 2000 characters'),
     body('content')
         .trim()
         .notEmpty()
         .withMessage('Content is required')
-        .isLength({ max: 1500 })
-        .withMessage('Content must be at least 1500 characters'),
+        .isLength({ max: 25000 })
+        .withMessage('Content must be at least 25000 characters'),
     body('category')
         .trim()
         .notEmpty()
@@ -108,4 +108,5 @@ module.exports = { loginValidation,
                     userUpdateValidation, 
                     categoryValidation, 
                     articleValidation 
+
                 }
