@@ -24,7 +24,7 @@
                         </span>
                     </div>
                     <p class="description">
-                        <%= artical.content.substring(0, 100) + '...' %>
+                        <%= artical.content.replace(/<[^>]*>/g, '').substring(0, 100) + '...' %>
                     </p>
                     <a class='read-more pull-right' href='/single/<%= artical._id %>'>read more</a>
                 </div>
@@ -68,3 +68,4 @@
         <% } %>
     </ul>
 </nav>
+
