@@ -45,9 +45,9 @@ A full-featured News Blog CMS built using Node.js, Express.js, and MongoDB, desi
 
 -> MVC-based project structure
 
--> RESTful routing
+-> RESTful routing api
 
--> Clean and scalable code
+-> Clean and scalable code write
 
 -> Admin-controlled content management system
 
