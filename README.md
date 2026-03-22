@@ -4,7 +4,7 @@ Live project Link: https://news-blog-cms.onrender.com
 
 A full-featured News Blog CMS built using Node.js, Express.js, and MongoDB, designed to manage news articles efficiently with a secure Admin Panel. This project allows admins to create, update, delete, and manage news content while providing users with a clean and responsive news reading experience.
 
-🚀 Features
+🚀 Features of
 🔐 Admin Panel
 
 -> Secure Admin Authentication (Login / Logout)
@@ -27,7 +27,7 @@ A full-featured News Blog CMS built using Node.js, Express.js, and MongoDB, desi
 
 -> Responsive UI for all devices
 
-🛠️ Tech Stack
+🛠️ Tech Stack Formate
 
 -> Backend: Node.js, Express.js
 
@@ -41,7 +41,7 @@ A full-featured News Blog CMS built using Node.js, Express.js, and MongoDB, desi
 
 -> Other Tools: Mongoose, Multer (for image upload)
 
-📂 Project Highlights
+📂 Project Highlights Details
 
 -> MVC-based project structure
 
